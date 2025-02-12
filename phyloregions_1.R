@@ -12,7 +12,7 @@ library(boot)
 
 sf_use_s2(F)
 
-source("C:/Users/davidle.WISMAIN/Box/lab folder/OTT/phylogenetic trees/phylo dissimilarity/organized/functions.R")
+source("functions.R")
 
 ###########################check how ido's paper has all the updated info
 
