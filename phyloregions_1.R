@@ -13,6 +13,9 @@ library(boot)
 sf_use_s2(F)
 
 source("functions.R")
+load("wwf_simple.b.RData")
+load("global.inland.RData")
+load("GBIFpolygon_groups.RData")
 
 ###########################check how ido's paper has all the updated info
 
