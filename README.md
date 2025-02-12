@@ -13,25 +13,16 @@ The primary objective is to reproduce the results presented in the study, includ
 
 ## Repository Structure
 
-Scripts
-
 **load_functions.R**
-Contains helper functions required for the phyloregions_1.R script.
+Contains functions required for the phyloregions_1.R script.
 
 **phyloregions_1.R**
 Performs the empirical analyses, including:
 
-Generating global phyloregions of tree species using:
-Species distribution dataset (Lerner et al., 2023)
-Phylogenetic tree dataset (Sanchez-Martinez et al., 2023)
-
-Downstream analyses:
-Phylogenetic diversity using Standardized Effect Size of Mean Phylogenetic Distance (SES-MPD).
-Phylogenetic beta diversity using Rao's Quadratic Entropy (RaoD).
-
-Environmental relationships with phyloregions via random forest models, incorporating:
-WorldClim Global Climate data (Hijmans et al., 2005)
-OlsenP dataset (McDowell et al., 2023)
+1. Generating global phyloregions of tree species using Species distribution dataset (Lerner et al., 2023) and Phylogenetic tree dataset (Sanchez-Martinez et al., 2023)
+2. Phylogenetic alpha diversity using Standardized Effect Size of Mean Phylogenetic Distance (SES-MPD).
+3. Phylogenetic beta diversity using Rao's Quadratic Entropy (RaoD).
+4. Environmental relationships with phyloregions via random forest models, incorporating WorldClim Global Climate data (Hijmans et al., 2005) and OlsenP dataset (McDowell et al., 2023)
 
 **phyloregions_script.R**
 Defines functions for running simulations with and without bridge phyloregions.
